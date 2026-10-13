@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stddef.h>
 
 int line_sum (int * a, size_t size){
     int sum = 0; 
@@ -27,4 +28,5 @@ int main(){
     }
 
     printf("Строка с минимальным номером: %ld\n", ind_min); 
+    return ind_min;
 }
